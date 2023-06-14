@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-	""" print addition of two numbers """
+	"""print addition of two numbers."""
 	from add_0 import add
 
 	a = 1
