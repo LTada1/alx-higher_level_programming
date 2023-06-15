@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-	from sys import argv
-	""" Print line arguments """
-	n = len(argv) - 1
-	if n != 0:
-		if n == 1:
-			print("{} argument:".format(n))
-		else:
-			print("{} arguments:".format(n))
-		j = 1
-		while (j <= n):
-			print("{}: {}".format(n, argv[j]))
-			j += 1
-	else:
-		print("{} arguments:".format(n))
+    from sys import argv
+    """print number and list of arguments."""
+    j = len(argv) - 1
+    if j != 0:
+        if j == 1:
+            print("{} argument:".format(j))
+        else:
+            print("{} arguments:".format(j))
+        k = 1
+        while(k <= j):
+            print("{}: {}".format(k, argv[k]))
+            k += 1
+    else:
+        print("{} arguments.".format(j))
