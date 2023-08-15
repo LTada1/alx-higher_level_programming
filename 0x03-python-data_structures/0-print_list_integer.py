@@ -2,7 +2,7 @@
 # 0-print_list_integer.py
 
 def print_list_integer(my_list=[]):
-    lap = my_list[:]
+    pat = my_list[:]
 
-    for i in lap:
-        prinit("{:d}".format(i))
+    for i in range(len(pat)):
+        print("{:d}".format(pat[i]))
