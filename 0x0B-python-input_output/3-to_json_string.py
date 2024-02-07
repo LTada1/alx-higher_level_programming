@@ -4,6 +4,4 @@
 
 def to_json_string(my_obj):
     import json
-    """from io import StringIO
-    content = StringIO(my_obj)"""
     return (json.dumps(my_obj))
